@@ -3,7 +3,7 @@
 # freebie test to make sure you've actually defined the models you plan on
 # testing.
 
-describe Person do
+describe "Person" do
 
   let(:avi_attributes) {
     {
