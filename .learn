@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 tags:
   - todo
   - mass assignment
@@ -6,3 +7,12 @@ tags:
 languages:
   - ruby
 resources: 1
+=======
+tags: 
+  - object orientation
+  - custom error handling
+languages: 
+  - Ruby
+resources: 
+  - 0
+>>>>>>> de83f458e22b9304b90ae3a3032fd6846ec68a29
