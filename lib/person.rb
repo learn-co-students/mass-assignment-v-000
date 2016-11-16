@@ -8,3 +8,10 @@ class Person
     attributes.each {|key, value| self.send(("#{key}="), value)}
   end
 end
+
+# from Solution
+#   def initialize(attributes=nil)
+    # if attributes
+    #  attributes.each do |k,v|
+    #    self.send("#{k}=", v)
+    #  end
