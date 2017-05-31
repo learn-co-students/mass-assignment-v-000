@@ -5,7 +5,7 @@ class Person
   :wrist_size, :glove_size, :pant_length, :pant_width
 
   def initialize(attributes)
-    attributes.each{|key, value| self.send(("#{key}="), value)}
-end
+    attributes.each{|key, value| self.send(("#{key}="), value)} #looks at key and the value assingned to it
+end #instance_of_user.name = "Sophie" = sophie.name = "Sophie"
 
 end
