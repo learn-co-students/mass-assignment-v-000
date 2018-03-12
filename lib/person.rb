@@ -5,7 +5,7 @@ class Person
 
     def initialize(argument)
       argument.each do |key, value|
-        self.send(("#{key}="), value)
+        self.send(("#{key}="), value)  #Instance_of_Person.key = value
       end
     end
 
