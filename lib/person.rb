@@ -25,4 +25,3 @@ avi_attributes =  {
   end
   end
 
-end
