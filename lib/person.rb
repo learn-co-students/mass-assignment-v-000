@@ -1,3 +1,3 @@
 class Person
-  #your code here
-end
+
+attr_accessor :name, :birthday, :hair_color,
