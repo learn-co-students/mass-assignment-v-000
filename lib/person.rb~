@@ -6,6 +6,9 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
 
 	def initialize(attributes)
+	# attributes = any of the attr_accessors
+	# mush iterate through each input pair 2 assign them the k & v sets of hash
+	# the 'k' = any attr_accessor -- positioning of input matters --
 		attributes.each { |k, v| self.send(("#{k}="), v) }
 	end
 end
